@@ -2,12 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Flex from 'components/common/Flex';
 
-const Association = ({ image, title, description }) => (
+const Association = ({ image, title, description,to}) => (
   <Flex alignItems="center" className="position-relative mb-2">
     <img className="me-2 rounded-3" src={image} width={50} alt="" />
     <div>
       <h6 className="fs-0 mb-0">
-        <a className="stretched-link" href="#!">
+        <a className="stretched-link" href={to}>
           {title}
         </a>
       </h6>

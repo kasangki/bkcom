@@ -17,7 +17,7 @@ const TopNavRightSideNavItem = () => {
       navbar
       className="navbar-nav-icons ms-auto flex-row align-items-center"
       as="ul"
-    >
+    >      
       <Nav.Item as={'li'}>
         <Nav.Link
           className="px-2 theme-control-toggle"

@@ -9,14 +9,14 @@ export const dashboardRoutes = {
       children: [
         {
           name: '인사말',
-          to: '/',
-          exact: true,
+          to: '/intro/greetings',
           active: true
         },
         {
           name: '연혁',
-          to: '/dashboard/analytics',
-          active: true
+          to: '/support-desk/contact-details',
+          active: true,
+          
         },
         {
           name: '오시는길',

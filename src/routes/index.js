@@ -197,9 +197,12 @@ import Reports from 'components/app/support-desk/reports/Reports';
 import InputMaskExample from 'components/doc-components/InputMaskExample';
 import RangeSlider from 'components/doc-components/RangeSlider';
 
+import Greetings from 'intro/Greetings';
+
 const FalconRoutes = () => {
   return (
     <Routes>
+      
       <Route path="landing" element={<Landing />} />
       <Route element={<ErrorLayout />}>
         <Route path="errors/404" element={<Error404 />} />
@@ -412,6 +415,7 @@ const FalconRoutes = () => {
           element={<PrivacyPolicy />}
         />
         <Route path="miscellaneous/invite-people" element={<InvitePeople />} />
+        <Route path="intro/greetings" element={<Greetings />} />
         {/* charts-example */}
 
         <Route path="charts/chartjs" element={<Chartjs />} />

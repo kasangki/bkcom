@@ -139,6 +139,9 @@ const NavbarTopElements = ({
           </Nav.Item> */}
         </Nav>
       )}
+      <h4 className="mb-0 fs-0 fs-sm-1 fs-lg-3">
+          대연부경정보처리학원
+      </h4>
       <TopNavRightSideNavItem />
     </>
   );

@@ -68,7 +68,7 @@ const InvitePeople = () => {
                  
                 </Col>
                 
-                <Col lg={4}>
+                <Col lg={4}> 
                   <IconButton
                     className="d-block w-100 mb-2 mb-xl-0"
                     iconClassName="me-2"
